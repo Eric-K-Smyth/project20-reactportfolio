@@ -7,12 +7,12 @@ function AboutMe() {
       <h2>About Me</h2>
       <div className="about-me-content">
         <div className="avatar">
-          <img src="your-avatar.jpg" alt="Your Name" />
+          <img src="src/assets/ProfilePic.png" alt="A photo of Eric Smyth" />
         </div>
         <div className="bio">
           <p>
-            Hello! I'm [Your Name], a passionate web developer with a love for creating
-            awesome web applications. I have [X] years of experience working with
+            Hello! I'm Eric, a passionate web developer with a love for creating
+            awesome web applications. I have 7 years of experience working with
             technologies like React, JavaScript, and HTML/CSS.
           </p>
           <p>

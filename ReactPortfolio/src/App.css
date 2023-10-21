@@ -40,3 +40,64 @@
 .read-the-docs {
   color: #888;
 }
+/* App.css - Styles for mobile-first design */
+
+/* Apply dark background to the entire app */
+.app.dark-theme {
+  background-color: #222; /* Choose your desired dark background color */
+  color: #fff; /* Text color for dark theme */
+}
+
+/* Style your header (navigation bar) */
+.app.dark-theme .nav-link {
+  color: #fff; /* Text color for navigation links */
+}
+
+.app.dark-theme .nav-link.active {
+  background-color: #333; /* Background color for active link */
+}
+
+/* Style main content (content below header) */
+.main-content {
+  padding: 1rem; /* Adjust padding for mobile devices */
+}
+
+/* Style individual content sections (e.g., About Me, Portfolio, etc.) */
+/* Add specific CSS classes to target each section individually */
+.about-me {
+  /* Add your specific styles here for the About Me section on mobile */
+  font-size: 1.2rem; /* Adjust font size for mobile devices */
+}
+
+.portfolio {
+  /* Add your specific styles here for the Portfolio section on mobile */
+  font-size: 1.2rem; /* Adjust font size for mobile devices */
+}
+
+/* Continue this pattern for other sections (e.g., Contact, Resume) */
+/* App.css - Additional styles for larger screens */
+
+/* Add a media query for screens with a minimum width of 768px (adjust as needed) */
+@media (min-width: 768px) {
+  /* Style your header (navigation bar) for larger screens */
+  .app.dark-theme .nav-link {
+    font-size: 1.4rem; /* Adjust font size for larger screens */
+  }
+
+  /* Style main content (content below header) for larger screens */
+  .main-content {
+    padding: 2rem; /* Adjust padding for larger screens */
+  }
+
+  /* Style individual content sections (e.g., About Me, Portfolio, etc.) for larger screens */
+  /* Add specific CSS classes to target each section individually */
+  .about-me {
+    font-size: 1.4rem; /* Adjust font size for larger screens */
+  }
+
+  .portfolio {
+    font-size: 1.4rem; /* Adjust font size for larger screens */
+  }
+
+  /* Continue this pattern for other sections (e.g., Contact, Resume) */
+}

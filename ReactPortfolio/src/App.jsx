@@ -1,35 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// App.jsx
+import React, { useState } from 'react';
+import Header from './components/Header';
+import ContentContainer from './components/ContentContainer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'; // Create a new CSS file for your main application styles
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [currentPage, setCurrentPage] = useState('about'); // Default to 'About Me'
+
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="app dark-theme"> {/* Add a class for your dark theme */}
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <main className="main-content">
+        <ContentContainer currentPage={currentPage} />
+      </main>
+    </div>
+  );
 }
 
-export default App
+export default App;

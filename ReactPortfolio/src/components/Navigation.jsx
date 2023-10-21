@@ -2,8 +2,10 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 
+
 function Navigation() {
   const location = useLocation();
+
 
   return (
     <nav>
@@ -32,5 +34,6 @@ function Navigation() {
     </nav>
   );
 }
+
 
 export default Navigation;
