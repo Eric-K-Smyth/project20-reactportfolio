@@ -7,7 +7,7 @@ function AboutMe() {
       <div className="about-me-content">
         <div className="avatar">
           <img
-            src="src/assets/ProfilePic.png"
+            src="/ProfilePic.png"
             alt="A photo of Eric Smyth"
             className="avatar-image"
           />

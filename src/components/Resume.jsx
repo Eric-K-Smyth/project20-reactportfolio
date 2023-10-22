@@ -9,7 +9,7 @@ function Resume() {
         You can download my resume below
       </p>
       <a
-        href="/src/assets/UpdatedResume.pdf" 
+        href="/UpdatedResume.pdf" 
         target="_blank"
         rel="noopener noreferrer"
         className="resume-link"
