@@ -1,4 +1,3 @@
-// AboutMe.jsx
 import React from 'react';
 
 function AboutMe() {
@@ -7,7 +6,11 @@ function AboutMe() {
       <h2>About Me</h2>
       <div className="about-me-content">
         <div className="avatar">
-          <img src="src/assets/ProfilePic.png" alt="A photo of Eric Smyth" />
+          <img
+            src="src/assets/ProfilePic.png"
+            alt="A photo of Eric Smyth"
+            className="avatar-image"
+          />
         </div>
         <div className="bio">
           <p>

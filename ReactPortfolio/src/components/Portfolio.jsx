@@ -5,18 +5,48 @@ import Project from './Project'; // Import the Project component
 function Portfolio() {
   const projectData = [
     {
-      title: "Project 1",
-      deployLink: "https://project1-url.com",
-      githubLink: "https://github.com/yourusername/project1",
-      image: "project1-image.jpg",
+      title: "Furniture Flip",
+      deployLink: "https://furniture-flip-fa10e6e071c1.herokuapp.com/",
+      githubLink: "https://github.com/queendoescode/furniture-flip",
+      image: "src/assets/furnitureflippic.png",
     },
     {
-      title: "Project 2",
-      deployLink: "https://project2-url.com",
-      githubLink: "https://github.com/yourusername/project2",
-      image: "project2-image.jpg",
+      title: "Sing-Along",
+      deployLink: "https://eric-k-smyth.github.io/sing-along/",
+      githubLink: "https://github.com/Eric-K-Smyth/sing-along",
+      image: "src/assets/SingAlongPic.jpg",
     },
-    // Add more project data as needed
+    {
+      title: "J.A.T.E",
+      deployLink: "https://afternoon-sands-93926-721a852618c6.herokuapp.com/",
+      githubLink: "https://github.com/Eric-K-Smyth/project19-pwatexteditor",
+      image: "src/assets/jatePic.png",
+    },
+    {
+      title: "Password Generator",
+      deployLink: "https://eric-k-smyth.github.io/Project3-PasswordGen/",
+      githubLink: "https://github.com/Eric-K-Smyth/Project3-PasswordGen",
+      image: "src/assets/passwordpic.png",
+    },
+    {
+      title: "The Coding Quiz",
+      deployLink: "https://eric-k-smyth.github.io/project4-quiz/",
+      githubLink: "https://github.com/Eric-K-Smyth/project4-quiz",
+      image: "src/assets/CodingQuizPic.png",
+    },
+    {
+      title: "Daily Planner",
+      deployLink: "https://eric-k-smyth.github.io/project5-planner/",
+      githubLink: "https://github.com/Eric-K-Smyth/project5-planner",
+      image: "src/assets/ProjectPlannerPic.png",
+    },
+    {
+      title: "Weather App",
+      deployLink: "https://eric-k-smyth.github.io/project6-weather/",
+      githubLink: "https://github.com/Eric-K-Smyth/project6-weather",
+      image: "src/assets/WeatherPic.png",
+    },
+    
   ];
 
   return (
@@ -25,17 +55,14 @@ function Portfolio() {
       <div className="project-list">
         {projectData.map((project, index) => (
           <div className="project-card" key={index}>
-            <Project
-              title={project.title}
-              deployLink={project.deployLink}
-              githubLink={project.githubLink}
-              image={project.image}
-            />
-            <button>
-              <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-                View Repository
-              </a>
-            </button>
+            <a href={project.deployLink} target="_blank" rel="noopener noreferrer">
+              <Project
+                title={project.title}
+                deployLink={project.deployLink}
+                githubLink={project.githubLink}
+                image={project.image}
+              />
+            </a>
           </div>
         ))}
       </div>
