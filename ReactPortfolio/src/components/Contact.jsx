@@ -1,4 +1,3 @@
-// Contact.jsx
 import React, { useState } from 'react';
 
 function Contact() {
@@ -58,7 +57,7 @@ function Contact() {
     <section className="contact">
       <h2>Contact Me</h2>
       <form onSubmit={handleFormSubmit}>
-        <div className="form-group">
+        <div className="form-group mb-3">
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -68,10 +67,11 @@ function Contact() {
             onChange={(e) =>
               setFormData({ ...formData, name: e.target.value })
             }
+            className="form-control" // Apply Bootstrap class
           />
           <span className="error">{formErrors.name}</span>
         </div>
-        <div className="form-group">
+        <div className="form-group mb-3">
           <label htmlFor="email">Email:</label>
           <input
             type="email"
@@ -81,10 +81,11 @@ function Contact() {
             onChange={(e) =>
               setFormData({ ...formData, email: e.target.value })
             }
+            className="form-control" // Apply Bootstrap class
           />
           <span className="error">{formErrors.email}</span>
         </div>
-        <div className="form-group">
+        <div className="form-group mb-3">
           <label htmlFor="message">Message:</label>
           <textarea
             id="message"
@@ -93,6 +94,7 @@ function Contact() {
             onChange={(e) =>
               setFormData({ ...formData, message: e.target.value })
             }
+            className="form-control" // Apply Bootstrap class
           ></textarea>
           <span className="error">{formErrors.message}</span>
         </div>
@@ -103,3 +105,5 @@ function Contact() {
 }
 
 export default Contact;
+
+
