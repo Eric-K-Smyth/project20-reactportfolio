@@ -138,3 +138,17 @@
   opacity: 1;
 }
 
+.social-links img {
+  width: 60px; /* Set your preferred width */
+  height: 60px; /* Set your preferred height */
+}
+.social-links {
+  display: flex; /* Use flex display to make items in a row */
+  list-style: none; /* Remove the default list styles */
+  padding: 0; /* Remove any default padding or margin */
+  justify-content: center;
+}
+
+.social-links li {
+  margin-right: 10px; /* Add some spacing between the icons (adjust as needed) */
+}

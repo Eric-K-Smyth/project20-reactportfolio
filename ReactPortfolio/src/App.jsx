@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import ContentContainer from './components/ContentContainer';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; // Create a new CSS file for your main application styles
 
@@ -18,6 +19,7 @@ function App() {
       <main className="main-content">
         <ContentContainer currentPage={currentPage} />
       </main>
+      <Footer />
     </div>
   );
 }

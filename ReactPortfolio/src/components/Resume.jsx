@@ -9,7 +9,7 @@ function Resume() {
         Welcome to my resume section. You can download my resume below, and I'll also list some of my skills and proficiencies.
       </p>
       <a
-        href="./assets/UpdatedResume.pdf" 
+        href="/src/assets/UpdatedResume.pdf" 
         target="_blank"
         rel="noopener noreferrer"
         className="resume-link"
