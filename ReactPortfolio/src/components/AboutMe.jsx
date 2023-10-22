@@ -15,13 +15,14 @@ function AboutMe() {
         <div className="bio">
           <p>
             Hello! I'm Eric, a passionate web developer with a love for creating
-            awesome web applications. I have 7 years of experience working with
-            technologies like React, JavaScript, and HTML/CSS.
+            awesome web applications. It all started when I made a little game in Javascript back in Highschool.
+            Now my repertoire is capable of handling Full-Stack Apps using tech like React and Express!
+
           </p>
           <p>
             I enjoy turning complex problems into simple, beautiful, and
-            intuitive designs. When I'm not coding, you'll find me exploring
-            new technologies or enjoying a great book.
+            intuitive designs. When I'm not coding, you can find me honing my graphic design skills
+            making Youtube videos or relaxing playing some video games!
           </p>
         </div>
       </div>

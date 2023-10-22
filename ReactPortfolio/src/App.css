@@ -139,8 +139,8 @@
 }
 
 .social-links img {
-  width: 60px; /* Set your preferred width */
-  height: 60px; /* Set your preferred height */
+  width: 60px; 
+  height: 60px; 
 }
 .social-links {
   display: flex; /* Use flex display to make items in a row */
@@ -150,5 +150,10 @@
 }
 
 .social-links li {
-  margin-right: 10px; /* Add some spacing between the icons (adjust as needed) */
+  margin-right: 10px; /* Add some spacing between the icons */
+}
+.skills-list {
+  list-style: none;
+  justify-content: center;
+  align-items: center;
 }

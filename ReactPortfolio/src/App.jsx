@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <div className="app dark-theme"> {/* Add a class for your dark theme */}
+    <div className="app dark-theme"> 
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <main className="main-content">
         <ContentContainer currentPage={currentPage} />

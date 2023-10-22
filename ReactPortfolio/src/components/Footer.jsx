@@ -5,8 +5,8 @@ function Footer() {
     <footer>
       <ul className="social-links">
         <li>
-          <a href="https://github.com/Eric-K-Smyth" target="_blank" rel="noopener noreferrer">
-            <img src="src/assets/githublogo.png" alt="GitHub Logo" />
+          <a href="https://github.com/Eric-K-Smyth" target="_blank" rel="noopener noreferrer"> 
+            <img src="src/assets/githublogo.png" alt="GitHub Logo" /> 
           </a>
         </li>
         <li>

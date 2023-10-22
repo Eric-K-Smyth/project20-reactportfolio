@@ -49,7 +49,7 @@ function Contact() {
   };
 
   const isValidEmail = (email) => {
-    // You can implement a more robust email validation here if needed
+    // Implemented validation here 
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   };
 

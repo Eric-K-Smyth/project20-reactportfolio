@@ -6,7 +6,7 @@ function Resume() {
     <section className="resume">
       <h2>My Resume</h2>
       <p>
-        Welcome to my resume section. You can download my resume below, and I'll also list some of my skills and proficiencies.
+        You can download my resume below
       </p>
       <a
         href="/src/assets/UpdatedResume.pdf" 
@@ -22,7 +22,7 @@ function Resume() {
         <li>HTML/CSS</li>
         <li>Node.js</li>
         <li>Express.js</li>
-        {/* Add more skills as needed */}
+        <li>And More!</li>
       </ul>
     </section>
   );
