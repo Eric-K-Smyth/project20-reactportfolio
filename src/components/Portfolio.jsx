@@ -5,6 +5,12 @@ import Project from './Project'; // Import the Project component
 function Portfolio() {
   const projectData = [
     {
+      title: "FitHub",
+      deployLink: "https://fithub-app-b325b32b5ea7.herokuapp.com/https://fithub-app-b325b32b5ea7.herokuapp.com/",
+      githubLink: "https://github.com/Eric-K-Smyth/FitHub",
+      image: "/fithub.png",
+    },
+    {
       title: "Furniture Flip",
       deployLink: "https://furniture-flip-fa10e6e071c1.herokuapp.com/",
       githubLink: "https://github.com/queendoescode/furniture-flip",
