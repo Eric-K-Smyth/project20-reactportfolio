@@ -6,7 +6,7 @@ function Portfolio() {
   const projectData = [
     {
       title: "FitHub",
-      deployLink: "https://fithub-app-b325b32b5ea7.herokuapp.com/https://fithub-app-b325b32b5ea7.herokuapp.com/",
+      deployLink: "https://fithub-app-b325b32b5ea7.herokuapp.com/",
       githubLink: "https://github.com/Eric-K-Smyth/FitHub",
       image: "/fithub.png",
     },
